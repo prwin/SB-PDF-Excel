@@ -26,7 +26,7 @@ public class EmployeeController {
 	@RequestMapping(value = "/")
 	public String viewHome() {
 		System.out.println("viewHome method");
-		
+		System.out.println("------------git update------------");
 		return "index";
 
 	}
